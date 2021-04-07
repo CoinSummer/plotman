@@ -77,7 +77,7 @@ if __name__ == "__main__":
     pm_parser = PlotmanArgParser()
     args = pm_parser.parse_args()
     
-    with open('config.yaml', 'r') as ymlfile:
+    with open('/home/cs/workspace/chia/plotman/config.yaml', 'r') as ymlfile:
         cfg = yaml.load(ymlfile, Loader=yaml.FullLoader)
     dir_cfg = cfg['directories']
     sched_cfg = cfg['scheduling']
