@@ -14,15 +14,15 @@ directories:
         # If multiple directories share a common prefix, reports will
         # abbreviate and show just the uniquely identifying suffix.
         tmp:
-                - /home/cs/disk_md0/chia_tmp/01
-                - /home/cs/disk_md0/chia_tmp/02
-                - /home/cs/disk_md0/chia_tmp/03
-                - /home/cs/disk_md0/chia_tmp/04
-                - /home/cs/disk_md0/chia_tmp/05
-                - /home/cs/disk_md0/chia_tmp/06
-                - /home/cs/disk_md0/chia_tmp/07
-                - /home/cs/disk_md0/chia_tmp/08
-                - /home/cs/disk_md0/chia_tmp/09
+                - /home/cs/disk_md0/chia_tmp/1
+                - /home/cs/disk_md0/chia_tmp/2
+                - /home/cs/disk_md0/chia_tmp/3
+                - /home/cs/disk_md0/chia_tmp/4
+                - /home/cs/disk_md0/chia_tmp/5
+                - /home/cs/disk_md0/chia_tmp/6
+                - /home/cs/disk_md0/chia_tmp/7
+                - /home/cs/disk_md0/chia_tmp/8
+                - /home/cs/disk_md0/chia_tmp/9
                 - /home/cs/disk_md0/chia_tmp/10
                 - /home/cs/disk_md0/chia_tmp/11
                 - /home/cs/disk_md0/chia_tmp/12
