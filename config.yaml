@@ -14,6 +14,7 @@ directories:
         # If multiple directories share a common prefix, reports will
         # abbreviate and show just the uniquely identifying suffix.
         tmp:
+                - /home/cs/disk_md0/chia_tmp/0
                 - /home/cs/disk_md0/chia_tmp/1
                 - /home/cs/disk_md0/chia_tmp/2
                 - /home/cs/disk_md0/chia_tmp/3
@@ -23,27 +24,6 @@ directories:
                 - /home/cs/disk_md0/chia_tmp/7
                 - /home/cs/disk_md0/chia_tmp/8
                 - /home/cs/disk_md0/chia_tmp/9
-                - /home/cs/disk_md0/chia_tmp/10
-                - /home/cs/disk_md0/chia_tmp/11
-                - /home/cs/disk_md0/chia_tmp/12
-                - /home/cs/disk_md0/chia_tmp/13
-                - /home/cs/disk_md0/chia_tmp/14
-                - /home/cs/disk_md0/chia_tmp/15
-                - /home/cs/disk_md0/chia_tmp/16
-                - /home/cs/disk_md0/chia_tmp/17
-                - /home/cs/disk_md0/chia_tmp/18
-                - /home/cs/disk_md0/chia_tmp/19
-                - /home/cs/disk_md0/chia_tmp/20
-                - /home/cs/disk_md0/chia_tmp/21
-                - /home/cs/disk_md0/chia_tmp/22
-                - /home/cs/disk_md0/chia_tmp/23
-                - /home/cs/disk_md0/chia_tmp/24
-                - /home/cs/disk_md0/chia_tmp/25
-                - /home/cs/disk_md0/chia_tmp/26
-                - /home/cs/disk_md0/chia_tmp/27
-                - /home/cs/disk_md0/chia_tmp/28
-                - /home/cs/disk_md0/chia_tmp/29
-                - /home/cs/disk_md0/chia_tmp/30
                 # - /mnt/tmp/01
                 # - /mnt/tmp/02
                 # - /mnt/tmp/03
@@ -84,7 +64,7 @@ scheduling:
         tmpdir_stagger_phase_minor: 1
 
         # Don't run more than this many jobs at a time on a single temp dir.
-        tmpdir_max_jobs: 30
+        tmpdir_max_jobs: 10
 
         # Don't run any jobs (across all temp dirs) more often than this.
         global_stagger_m: 30
@@ -101,4 +81,4 @@ plotting:
         e: True              # Use -e plotting option
         n_threads: 16         # Threads per job
         n_buckets: 128       # Number of buckets to split data into
-        job_buffer: 50000     # Per job memory
+        job_buffer: 5000     # Per job memory
