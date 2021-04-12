@@ -15,10 +15,14 @@ sh install.sh
 
 ## Init
 ```sh
+# 初始化
 chia init
+
+# 创建钱包
 chia keys generate
 chia keys show
 
+# 启动节点
 chia start
 
 # 查看同步进度
