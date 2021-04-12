@@ -23,7 +23,7 @@ chia keys generate
 chia keys show
 
 # 启动节点
-chia start
+chia start all
 
 # 查看同步进度
 chia show -s
