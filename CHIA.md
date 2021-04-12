@@ -33,6 +33,9 @@ chia plots show
 
 ## Start plot
 ```sh
+mkdir -p ~/workspace/chia
+cd ~/workspace/chia
+git clone https://github.com/CoinSummer/plotman
 cd ~/workspace/chia/plotman
 python3 plotman.py plot
 ```
